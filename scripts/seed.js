@@ -57,7 +57,7 @@ const seedData = async () => {
         floor: 1,
         category: 'Training Room',
         description: 'Equipped classroom dedicated to orchestral and wind instrument training for young musicians.',
-        imageURL: '/band_classroom.png'
+        imageURL: '/band_classroom.jpg'
       },
       {
         title: 'Evolution of Dances- Tribal',
