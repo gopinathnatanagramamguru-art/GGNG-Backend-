@@ -8,7 +8,7 @@ const eventSchema = new mongoose.Schema({
   },
   date: {
     type: Date,
-    required: true
+    required: false
   },
   description: {
     type: String,
@@ -16,7 +16,7 @@ const eventSchema = new mongoose.Schema({
   },
   location: {
     type: String,
-    default: 'Natanagramam Campus, Vattiyoorkavu'
+    default: ''
   },
   imageURL: {
     type: String,

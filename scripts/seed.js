@@ -46,69 +46,61 @@ const seedData = async () => {
     const exhibits = [
       // Ground Floor
       {
-        title: '5D Teatre',
+        title: '270 Degree Theatre',
         floor: 1,
         category: 'Digital & Theatre',
-        description: 'A high-tech 5D theater space showing short documentaries and cultural films about Kerala\'s dance forms.',
-        imageURL: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=600&auto=format&fit=crop'
+        description: 'A high-tech 270 degree theater space showing short documentaries and cultural films about Kerala\'s dance forms.',
+        imageURL: '/theater_5d.png'
       },
       {
         title: 'Band Class Room',
         floor: 1,
         category: 'Training Room',
         description: 'Equipped classroom dedicated to orchestral and wind instrument training for young musicians.',
-        imageURL: 'https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=600&auto=format&fit=crop'
+        imageURL: '/band_classroom.png'
       },
       {
-        title: 'director room',
+        title: 'Evolution of Dances- Tribal',
         floor: 1,
-        category: 'Administration',
-        description: 'The administrative office of the Natanagramam Director, holding historical records of the institution.',
-        imageURL: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600&auto=format&fit=crop'
-      },
-      {
-        title: 'VIP Room',
-        floor: 1,
-        category: 'Administration',
-        description: 'A reception and lounge area for visiting artists, experts, and government dignitaries.',
-        imageURL: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=600&auto=format&fit=crop'
-      },
-      {
-        title: 'Library',
-        floor: 1,
-        category: 'Resource Centre',
-        description: 'A treasure trove of books, documents, and reference guides regarding classical dance, music, and local traditions.',
-        imageURL: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=600&auto=format&fit=crop'
+        category: 'Mural & Painting',
+        description: 'Vivid murals and ceiling paintings depicting the historical evolution of tribal dance forms in Kerala.',
+        imageURL: '/evolution_of_dances_tribal.png'
       },
       // First Floor
+      {
+        title: 'Traditional and Temple Dance in Kerala',
+        floor: 2,
+        category: 'Sculpture',
+        description: 'Stunning lifelike models representing Kathakali, Mohiniyattam, and other traditional temple dance forms of Kerala.',
+        imageURL: '/traditional_temple_dance.png'
+      },
+      {
+        title: 'Folk Dances - Kerala',
+        floor: 2,
+        category: 'Sculpture',
+        description: 'An exhibition hall showcasing colorful and detailed models depicting the traditional folk dances of Kerala.',
+        imageURL: '/folk_dances_kerala.png'
+      },
       {
         title: 'wax gallery',
         floor: 2,
         category: 'Sculpture',
         description: 'Stunning lifelike wax models illustrating classical art poses and key cultural figures.',
-        imageURL: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?q=80&w=600&auto=format&fit=crop'
+        imageURL: '/wax_gallery.png'
       },
       {
         title: 'paintings',
         floor: 2,
         category: 'Mural & Painting',
         description: 'Vibrant paintings depicting mythological stories and characters from traditional dance dramas.',
-        imageURL: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=600&auto=format&fit=crop'
+        imageURL: '/paintings.png'
       },
       {
         title: 'Kalaroopam',
         floor: 2,
         category: 'Fine Arts',
         description: 'Models representing the visual beauty, form, and structural history of temple arts and rituals.',
-        imageURL: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?q=80&w=600&auto=format&fit=crop'
-      },
-      // Second Floor
-      {
-        title: 'Percussion & Instruments',
-        floor: 3,
-        category: 'Musical Instrument',
-        description: 'A unique collection of traditional musical instruments, including the Chenda, Maddalam, Veena, and Edakka.',
-        imageURL: 'https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=600&auto=format&fit=crop'
+        imageURL: '/kalaroopam.png'
       }
     ];
     await Exhibit.insertMany(exhibits);
@@ -228,27 +220,15 @@ const seedData = async () => {
     const events = [
       {
         title: 'Guru Gopinath National Dance Festival 2026',
-        date: new Date('2026-12-15T18:00:00'),
         description: 'The flagship annual festival hosted by the Department of Culture, Government of Kerala. Renowned national artists will perform diverse Indian classical and folk dance forms across a 5-day celebration. Entry is free for the public.',
-        location: 'Guru Gopinath Memorial Open Air Theatre, Natanagramam',
         isFestival: true,
         imageURL: '/festival.jpg'
       },
       {
         title: 'Kerala Natanam Lecture Demonstration & Seminar',
-        date: new Date('2026-09-10T10:00:00'),
         description: 'A unique interactive seminar conducted by senior disciples of Guru Gopinath. They will break down the structural elements of Kerala Natanam, detailing how it bridges traditional Kathakali with modern theatrical presentation.',
-        location: 'Seminar Hall & Audio-Visual Room, Natanagramam',
         isFestival: false,
         imageURL: '/Lecture%20NG.jpeg'
-      },
-      {
-        title: 'Monsoon Classical Music Concert & Evening Recitals',
-        date: new Date('2026-07-25T17:30:00'),
-        description: 'An evening of classical ragas performed by the faculty and visiting artists of Natanagramam. Features vocal Carnatic recitals accompanied by Veena, Violin, and Mridangam.',
-        location: 'Indoor Concert Arena, Natanagramam',
-        isFestival: false,
-        imageURL: 'https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=800&auto=format&fit=crop'
       }
     ];
     await Event.insertMany(events);
