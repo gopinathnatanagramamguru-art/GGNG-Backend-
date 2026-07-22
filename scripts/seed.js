@@ -219,12 +219,6 @@ const seedData = async () => {
     // 4. Seed Events
     const events = [
       {
-        title: 'Guru Gopinath National Dance Festival 2026',
-        description: 'The flagship annual festival hosted by the Department of Culture, Government of Kerala. Renowned national artists will perform diverse Indian classical and folk dance forms across a 5-day celebration. Entry is free for the public.',
-        isFestival: true,
-        imageURL: '/festival.jpg'
-      },
-      {
         title: 'Kerala Natanam Lecture Demonstration & Seminar',
         description: 'A unique interactive seminar conducted by senior disciples of Guru Gopinath. They will break down the structural elements of Kerala Natanam, detailing how it bridges traditional Kathakali with modern theatrical presentation.',
         isFestival: false,
