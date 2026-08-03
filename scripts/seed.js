@@ -52,13 +52,7 @@ const seedData = async () => {
         description: 'A high-tech 270 degree theater space showing short documentaries and cultural films about Kerala\'s dance forms.',
         imageURL: '/theater_5d.png'
       },
-      {
-        title: 'Band Class Room',
-        floor: 1,
-        category: 'Training Room',
-        description: 'Equipped classroom dedicated to orchestral and wind instrument training for young musicians.',
-        imageURL: '/band_classroom.jpg'
-      },
+
       {
         title: 'Evolution of Dances- Tribal',
         floor: 1,
