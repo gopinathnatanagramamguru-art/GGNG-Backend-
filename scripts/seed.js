@@ -217,6 +217,12 @@ const seedData = async () => {
         description: 'A unique interactive seminar conducted by senior disciples of Guru Gopinath. They will break down the structural elements of Kerala Natanam, detailing how it bridges traditional Kathakali with modern theatrical presentation.',
         isFestival: false,
         imageURL: '/Lecture%20NG.jpeg'
+      },
+      {
+        title: 'Guru Gopinath Natanagramam Nattyapuraskaram award ceremony by Pinarayi Vijayan',
+        description: 'The prestigious Guru Gopinath National Natyapuraskar Award Ceremony presented by the Honorable Chief Minister of Kerala, Shri Pinarayi Vijayan, honoring outstanding classical dance legends and cultural luminaries.',
+        imageURL: '/natyapuraskaram.jpg',
+        isFestival: false
       }
     ];
     await Event.insertMany(events);
