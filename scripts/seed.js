@@ -123,7 +123,7 @@ const seedData = async () => {
         category: 'Dance',
         timing: 'Batch 1 (Tue, Wed, Thu 4:30-6 PM) / Batch 2 (Fri 4:40-6 PM, Sat 4-6 PM, Sun 10 AM-12:30 PM)',
         duration: '1 Year (Certificate)',
-        fee: 'Children: Rs. 500/mo | Adults: Rs. 600/mo',
+        fee: '<16 yrs: Rs. 600/mo (1 Sub) / Rs. 720/mo (2 Subs) | >16 yrs: Rs. 720/mo (1 Sub) / Rs. 960/mo (2 Subs) | Admission: Rs. 300',
         description: 'Learn the foundational grammar, body movements, mudras (hand gestures), and expressions of Kerala Natanam, the classical dance form structured by Guru Gopinath. Open to all age groups.'
       },
       {
@@ -131,7 +131,7 @@ const seedData = async () => {
         category: 'Dance',
         timing: 'Batch 1 (Tue, Wed, Thu 4:30-6 PM) / Batch 2 (Fri 4:40-6 PM, Sat 4-6 PM, Sun 10 AM-12:30 PM)',
         duration: '1 Year (Certificate)',
-        fee: 'Children: Rs. 500/mo | Adults: Rs. 600/mo',
+        fee: '<16 yrs: Rs. 600/mo (1 Sub) / Rs. 720/mo (2 Subs) | >16 yrs: Rs. 720/mo (1 Sub) / Rs. 960/mo (2 Subs) | Admission: Rs. 300',
         description: 'Traditional classical Bharathanatyam classes covering basic Adavus, hand gestures, facial expressions (abhinaya), and classical items.'
       },
       {
@@ -139,7 +139,7 @@ const seedData = async () => {
         category: 'Instrumental Music',
         timing: 'Batch 1 (Tue, Wed, Thu 4:30-6 PM) / Batch 2 (Fri 4:40-6 PM, Sat 4-6 PM, Sun 10 AM-12:30 PM)',
         duration: '1 Year',
-        fee: 'Children: Rs. 500/mo | Adults: Rs. 600/mo',
+        fee: '<16 yrs: Rs. 600/mo (1 Sub) / Rs. 720/mo (2 Subs) | >16 yrs: Rs. 720/mo (1 Sub) / Rs. 960/mo (2 Subs) | Admission: Rs. 300',
         description: 'Traditional training in playing the Saraswati Veena. Focuses on Carnatic music systems, raga patterns, basic geethams, and classical compositions.'
       },
       {
@@ -147,7 +147,7 @@ const seedData = async () => {
         category: 'Instrumental Music',
         timing: 'Batch 1 (Tue, Wed, Thu 4:30-6 PM) / Batch 2 (Fri 4:40-6 PM, Sat 4-6 PM, Sun 10 AM-12:30 PM)',
         duration: '1 Year',
-        fee: 'Children: Rs. 500/mo | Adults: Rs. 600/mo',
+        fee: '<16 yrs: Rs. 600/mo (1 Sub) / Rs. 720/mo (2 Subs) | >16 yrs: Rs. 720/mo (1 Sub) / Rs. 960/mo (2 Subs) | Admission: Rs. 300',
         description: 'Carnatic style violin lessons starting from basic bowing techniques, finger placement, scale practices, to rendering classical ragas and varnams.'
       },
       {
@@ -155,7 +155,7 @@ const seedData = async () => {
         category: 'Instrumental Music',
         timing: 'Batch 1 (Tue, Wed, Thu 4:30-6 PM) / Batch 2 (Fri 4:40-6 PM, Sat 4-6 PM, Sun 10 AM-12:30 PM)',
         duration: '6 Months',
-        fee: 'Children: Rs. 500/mo | Adults: Rs. 600/mo',
+        fee: '<16 yrs: Rs. 600/mo (1 Sub) / Rs. 720/mo (2 Subs) | >16 yrs: Rs. 720/mo (1 Sub) / Rs. 960/mo (2 Subs) | Admission: Rs. 300',
         description: 'Introduction to rhythm patterns (Taal), hand positions, and solo/accompaniment techniques on the Tabla percussion instrument.'
       },
       {
@@ -163,7 +163,7 @@ const seedData = async () => {
         category: 'Instrumental Music',
         timing: 'Batch 1 (Tue, Wed, Thu 4:30-6 PM) / Batch 2 (Fri 4:40-6 PM, Sat 4-6 PM, Sun 10 AM-12:30 PM)',
         duration: '1 Year',
-        fee: 'Children: Rs. 500/mo | Adults: Rs. 600/mo',
+        fee: '<16 yrs: Rs. 600/mo (1 Sub) / Rs. 720/mo (2 Subs) | >16 yrs: Rs. 720/mo (1 Sub) / Rs. 960/mo (2 Subs) | Admission: Rs. 300',
         description: 'Electronic keyboard training covering classical notations, scale exercises, chord structures, and basic Western and Eastern song rendering.'
       },
       {
@@ -171,7 +171,7 @@ const seedData = async () => {
         category: 'Instrumental Music',
         timing: 'Batch 1 (Tue, Wed, Thu 4:30-6 PM) / Batch 2 (Fri 4:40-6 PM, Sat 4-6 PM, Sun 10 AM-12:30 PM)',
         duration: '1 Year',
-        fee: 'Children: Rs. 500/mo | Adults: Rs. 600/mo',
+        fee: '<16 yrs: Rs. 600/mo (1 Sub) / Rs. 720/mo (2 Subs) | >16 yrs: Rs. 720/mo (1 Sub) / Rs. 960/mo (2 Subs) | Admission: Rs. 300',
         description: 'Acoustic guitar training including chord progression, scale shapes, fingerpicking, and rhythmic strumming patterns for various genres.'
       },
       {
@@ -179,7 +179,7 @@ const seedData = async () => {
         category: 'Instrumental Music',
         timing: 'Batch 1 (Tue, Wed, Thu 4:30-6 PM) / Batch 2 (Fri 4:40-6 PM, Sat 4-6 PM, Sun 10 AM-12:30 PM)',
         duration: '6 Months',
-        fee: 'Children: Rs. 500/mo | Adults: Rs. 600/mo',
+        fee: '<16 yrs: Rs. 600/mo (1 Sub) / Rs. 720/mo (2 Subs) | >16 yrs: Rs. 720/mo (1 Sub) / Rs. 960/mo (2 Subs) | Admission: Rs. 300',
         description: 'Comprehensive drum kit training covering tempo control, rudiments, snare patterns, fill-ins, and basic rock/folk beats.'
       },
       {
@@ -187,7 +187,7 @@ const seedData = async () => {
         category: 'Dance',
         timing: 'Batch 1 (Tue, Wed, Thu 4:30-6 PM) / Batch 2 (Fri 4:40-6 PM, Sat 4-6 PM, Sun 10 AM-12:30 PM)',
         duration: '1 Year',
-        fee: 'Children: Rs. 500/mo | Adults: Rs. 600/mo',
+        fee: '<16 yrs: Rs. 600/mo (1 Sub) / Rs. 720/mo (2 Subs) | >16 yrs: Rs. 720/mo (1 Sub) / Rs. 960/mo (2 Subs) | Admission: Rs. 300',
         description: 'Learn the traditional solo performing art form of Kerala, combining satire, social critique, dance, and music based on Kunchan Nambiar\'s classic works.'
       },
       {
@@ -195,7 +195,7 @@ const seedData = async () => {
         category: 'Vocal Music',
         timing: 'Batch 1 (Tue, Wed, Thu 4:30-6 PM) / Batch 2 (Fri 4:40-6 PM, Sat 4-6 PM, Sun 10 AM-12:30 PM)',
         duration: '1 Year',
-        fee: 'Children: Rs. 500/mo | Adults: Rs. 600/mo',
+        fee: '<16 yrs: Rs. 600/mo (1 Sub) / Rs. 720/mo (2 Subs) | >16 yrs: Rs. 720/mo (1 Sub) / Rs. 960/mo (2 Subs) | Admission: Rs. 300',
         description: 'Classical Carnatic vocal music training covering Swaras, Alankaras, Geethams, and Varnams. Prepares students for stage recitals.'
       },
       {
@@ -203,7 +203,7 @@ const seedData = async () => {
         category: 'Other',
         timing: 'Batch 1 (Tue, Wed, Thu 4:30-6 PM) / Batch 2 (Fri 4:40-6 PM, Sat 4-6 PM, Sun 10 AM-12:30 PM)',
         duration: '6 Months',
-        fee: 'Children: Rs. 500/mo | Adults: Rs. 600/mo',
+        fee: '<16 yrs: Rs. 600/mo (1 Sub) / Rs. 720/mo (2 Subs) | >16 yrs: Rs. 720/mo (1 Sub) / Rs. 960/mo (2 Subs) | Admission: Rs. 300',
         description: 'Creative fine arts classes including sketching, shading, color theory, canvas painting, and an introduction to traditional Kerala mural style painting.'
       }
     ];
@@ -212,12 +212,6 @@ const seedData = async () => {
 
     // 4. Seed Events
     const events = [
-      {
-        title: 'Kerala Natanam Lecture Demonstration & Seminar',
-        description: 'A unique interactive seminar conducted by senior disciples of Guru Gopinath. They will break down the structural elements of Kerala Natanam, detailing how it bridges traditional Kathakali with modern theatrical presentation.',
-        isFestival: false,
-        imageURL: '/Lecture%20NG.jpeg'
-      },
       {
         title: 'Guru Gopinath Natanagramam Nattyapuraskaram award ceremony by Pinarayi Vijayan',
         description: 'The prestigious Guru Gopinath National Natyapuraskar Award Ceremony presented by the Honorable Chief Minister of Kerala, Shri Pinarayi Vijayan, honoring outstanding classical dance legends and cultural luminaries.',
